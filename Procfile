@@ -1,1 +1,1 @@
-web: waitress-serve --port=$VCAP_APP_PORT abb.wsgi:application
+web: waitress-serve --port=$PORT abb.wsgi:application
